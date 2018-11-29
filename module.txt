@@ -1,0 +1,25 @@
+Modules - 
+
+Definition - A module is a file(.py) containing Python definitions and statements. A module can define functions, classes and variables
+
+The import system-
+
+-Python code in one module gains access to the code in another module by the process of importing it.
+
+-Functions such as importlib.import_module() and built-in __import__() can also be used to invoke the import machinery.
+
+-The import statement combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope.
+
+-module search path-
+
+    1)When a module named(spam) is imported, the interpreter first searches for a built-in module with that name. If not found,---- 
+it then searches for a file named spam.py in a list of directories given by the variable sys.path. 
+sys.path is initialized from these locations:
+
+    -The directory containing the input script (or the current directory when no file is specified).
+    -PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).
+    -The installation-dependent default.
+---------
+
+-To speed up loading modules, Python caches the compiled version of each module in the __pycache__ directory under the name module.version.pyc, where the version encodes the format of the compiled file.
+

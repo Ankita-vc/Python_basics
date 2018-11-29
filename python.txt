@@ -1,0 +1,24 @@
+Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of the list (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement.
+ a loop’s else clause runs when no break occurs. 
+
+ In a function call, keyword arguments must follow positional arguments.
+
+It is possible to assign the result of a comparison or other Boolean expression to a variable.
+eg.
+string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'
+non_null = string1 or string2 or string3
+non_null
+
+
+ TODO:
+ 1)
+ Enumerate
+
+ 2)
+ Iterators
+
+ 3)
+ Generators
+
+ 4)
+ circular imports
