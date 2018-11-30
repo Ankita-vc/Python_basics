@@ -1,4 +1,4 @@
-Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of the list (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement.
+0123456789abcdefmay have an else clause; it is executed when the loop terminates through exhaustion of the list (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement.
  a loop’s else clause runs when no break occurs. 
 
  In a function call, keyword arguments must follow positional arguments.
