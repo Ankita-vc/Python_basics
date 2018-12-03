@@ -1,0 +1,18 @@
+1)  In Python, an error can be a syntax error or an exception.
+2) exception error. This type of error occurs whenever syntactically correct Python code results in an error. 
+3) Raise an exception: 
+
+We can use raise to throw an exception if a condition occurs. The statement can be complemented with a custom exception.
+If you want to throw an error when a certain condition occurs using raise, you could go about it like this:
+
+x = 10
+if x > 5:
+    raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
+
+4)The AssertionError Exception:
+
+An AssertionError can only occur when an assert statement fails. Therefore, an AssertionError should never be a surprise or appear in a section of your application code that is unexpected — every time you write an assert statement, you should also provide appropriate exception handling code to deal with an inevitable assert failure.
+
+use:
+When we want to fail the program if a particular condition is not met, rather than crashing the code in the middle..we can assert a condition at start only.
+
