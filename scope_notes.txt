@@ -1,0 +1,30 @@
+links -
+
+https://www.programiz.com/python-programming/namespace          - namespace
+https://www.programiz.com/python-programming/global-local-nonlocal-variables    -scope
+https://www.programiz.com/python-programming/global-keyword            -global
+
+namespace is a mapping from names to objects.
+
+Scope is the portion of the program from where a namespace can be accessed directly without any prefix.
+
+When a reference is made inside a function, the name is searched in the local namespace, then in the global namespace and finally in the built-in namespace.
+
+
+1) For variable defined in local of a (inner)function, outside of inner function, and inside main 
+scope for writing:1) local(inner function) 2)nonlocal(in outer function) 3)global(in main )
+
+2) For variable in inner function - nonlocal and global are read only. For using nonlocal variable, (inner)function has to declare it as nonlocal var. Then it becomes writable inside that function.
+
+3) For variable in outer function - global variable is read only. For modifying it, declare as global var.
+
+
+scopes of variables;
+1) Local variable -
+Local variable are the variable that are defined inside function. And its scope is limited upto that function only.
+
+2) Nonlocal variable -
+Nonlocal variable are used in nested function(local to outside function). scope is between local and global.
+
+3) global variable -
+global variable are defined outside of function and are accessible throughout that module.
