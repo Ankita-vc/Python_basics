@@ -1,0 +1,26 @@
+Numpy Arrays:
+
+1)In a NumPy array, the number of dimensions is called the rank, and each dimension is called an axis. So the rows are the first axis, and the columns are the second axis.
+
+2)We can create a NumPy array using the numpy.array function.
+
+3) NumPy will automatically pick a data type for the elements in an array based on their format.
+
+4) NumPy is a package for working with multidimensional arrays. 
+
+5) NumPy stores values using its own data types, which are distinct from Python types like float and str.  This is because the core of NumPy is written in a programming language called C, which stores data differently than the Python data types. NumPy data types map between Python and C,
+
+ limitations of NumPy:
+
+ 1) all the elements in an array have to be of the same type, so if we include the header row (all of string type), all the elements in the array will be read in as strings.
+
+
+
+
+
+
+
+
+
+dimension = rank
+each dimension = axis
